@@ -18,6 +18,9 @@ dis_height = 600
 
 dis = pygame.display.set_mode((dis_width, dis_height))
 pygame.display.set_caption('Змейка')
+icon = pygame.image.load('img/BMW.jpg')
+pygame.display.set_icon(icon)
+
 
 clock = pygame.time.Clock()
 
